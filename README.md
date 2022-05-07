@@ -22,4 +22,16 @@ You have been asked to code up a mobile application for a client and provide uni
         1. firstName
         2. lastName
         3. phoneNumber
-        4. address
+        4. address  
+2. **Task Service:** In the Module Four milestone, you developed the task service. The task service used in-memory data structures to support storing tasks (no database required). In addition, there was no UI for this assignment. You verified the task service through JUnit tests. The task service contained a task object along with the task service. The requirements were as follows:  
+    * a. Task Class:
+      - The task object shall have a required unique task ID String that cannot be longer than 10 characters. The task ID shall not be null and shall not be updatable.
+      - The task object shall have a required name String field that cannot be longer than 20 characters. The name field shall not be null.
+      - The task object shall have a required description String field that cannot be longer than 50 characters. The description field shall not be null.
+    * b. Task Service Class:  
+      - The task service shall be able to add tasks with a unique ID.
+      - The task service shall be able to delete tasks per taskId.
+      - The task service shall be able to update task fields per taskId.
+      - The following fields are updatable: 
+        1. name
+        2. description
