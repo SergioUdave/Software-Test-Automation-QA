@@ -6,8 +6,7 @@ You are a software engineer for Grand Strand Systems, a software engineering com
 
 # Directions
 **Submit ContactService, TaskService, and AppointmentService .java files**
-*
-You have been asked to code up a mobile application for a client and provide unit tests to verify that it meets the customer's requirements. In order to do so, you must complete the following:
+* You have been asked to code up a mobile application for a client and provide unit tests to verify that it meets the customer's requirements. In order to do so, you must complete the following:
 1. **Contact Service:** In the Module Three milestone, you developed the contact service. The contact service used in-memory data structures to support storing contacts (no database required). In addition, there was no UI for this assignment. You verified the contact service through JUnit tests. The contact service contained a contact object along with the contact service. The requirements were as follows:
 * a. Contact Class:
   - The Contact object shall have a required unique contact ID String that cannot be longer than 10 characters. The contact ID shall not be null and shall not be updatable.
