@@ -34,4 +34,15 @@ You have been asked to code up a mobile application for a client and provide uni
       - The task service shall be able to update task fields per taskId.
       - The following fields are updatable: 
         1. name
-        2. description
+        2. description  
+3. **Appointment Service:** In the Module Five milestone, you developed the appointment service. The appointment service used in-memory data structures to support storing appointments (no database required). In addition, there was no UI for this assignment. You verified the appointment service through JUnit tests. The appointment service contained an appointment object along with the appointment service. The requirements were as follows:  
+    * a. Appointment Class:  
+      - The appointment object shall have a required unique appointment ID String that cannot be longer than 10 characters. The appointment ID shall not be null and shall not be updatable.
+      - The appointment object shall have a required appointment Date field. The appointmentDate field cannot be in the past. The appointmentDate field shall not be null. Note: Use java.util.Date for the appointmentDate field and use before(new Date()) to check if the date is in the past.
+      - The appointment object shall have a required description String field that cannot be longer than 50 characters. The description field shall not be null.
+    * b. Appointment Service Class:  
+      - The appointment service shall be able to add appointments with a unique appointmentId.
+      - The appointment service shall be able to delete appointments per appointmentId.
+Specifically, the following rubric criteria must be addressed:  
+  - Verify that the Contact, ContactService, Task, TaskService, Appointment, AppointmentService classes meet the requirements through JUnit tests.
+  - Ensure the **test coverage** for the .java files is **80%** or higher.
