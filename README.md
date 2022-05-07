@@ -43,6 +43,7 @@ You have been asked to code up a mobile application for a client and provide uni
     * b. Appointment Service Class:  
       - The appointment service shall be able to add appointments with a unique appointmentId.
       - The appointment service shall be able to delete appointments per appointmentId.  
+  
 Specifically, the following rubric criteria must be addressed:  
   - Verify that the Contact, ContactService, Task, TaskService, Appointment, AppointmentService classes meet the requirements through JUnit tests.
   - Ensure the **test coverage** for the .java files is **80%** or higher.
